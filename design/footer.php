@@ -1,5 +1,5 @@
 <div class="footer">
 	<center>
-		Bruh this a footer.
+		Footer.
 	</center>
 </div>

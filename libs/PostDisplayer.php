@@ -8,7 +8,7 @@
 		}
 
 		public function script() {
-			$res = '';
+			$res;
 			$res .= '<table width="100%" border="0" cellspacing="0" cellpadding="0">';
 			$res .= '<tr>';
 
@@ -19,7 +19,7 @@
 				$res .= '<tr>';
 				
 				for($a = 0;$a<3 && $postnum>=0;$a++) {
-					if($posts[$postnum]==NULL)
+					if($this->posts[$postnum]==NULL)
 						return;
 					$res .= '<td class="column" width="33%" height="40%">';
 					$news_post = new NewsPost($this->posts[$postnum--]);

@@ -5,6 +5,7 @@ body {
 }
 .column {
 	vertical-align: top;
+	
 }
 .news_column {
 	background-color:#FFFFFF;
@@ -66,6 +67,7 @@ body {
 	background-color:#FFFFFF;
 }
 .footer {
+	
 	background-color:#71D9E2;
 	margin-top: .5em;
 	margin-bottom: .1em;

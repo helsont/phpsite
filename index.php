@@ -7,7 +7,9 @@
 		?>
 	</head>
 	<body>
-		<?php echo View::php('header');
+		<?php 
+			echo View::php('header');
+
 			require_once 'libs/StatusPostConnection.php';
 			require_once 'libs/NewsPost.php';
 			require_once 'libs/PostDisplayer.php';
@@ -17,11 +19,7 @@
 
 			$postDisplay = new PostDisplayer($posts);
 			$postDisplay->render();
+			// echo View::render('footer');
 		?>
-		<div>
-			<center>
-				<?php echo View::render('footer');?>
-			</center>
-		</div>
 	</body>
 </html>
