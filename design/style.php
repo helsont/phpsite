@@ -1,0 +1,1 @@
+<?php echo '<link rel="stylesheet" type="text/css" href="'.View::getHTMLFullPath('styles.css').'">'?>
